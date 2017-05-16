@@ -1,0 +1,25 @@
+# See https://www.techempower.com/benchmarks/#section=code for details
+
+test1:
+   path: /json
+   defaults: { _controller: 'App\Controller\BenchmarkController::test1' }
+
+test2:
+   path: /db
+   defaults: { _controller: 'App\Controller\BenchmarkController::test2' }
+
+test3:
+   path: /queries
+   defaults: { _controller: 'App\Controller\BenchmarkController::test3' }
+
+test4:
+   path: /fortunes
+   defaults: { _controller: 'App\Controller\BenchmarkController::test4' }
+
+test5:
+   path: /updates
+   defaults: { _controller: 'App\Controller\BenchmarkController::test5' }
+
+test6:
+   path: /plaintext
+   defaults: { _controller: 'App\Controller\BenchmarkController::test6' }
